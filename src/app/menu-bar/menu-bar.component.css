@@ -1,0 +1,91 @@
+.mat-form-field {
+  margin-left: 5px;
+  padding-left: 170px;
+  width: 32%;
+  padding-top: 5%;
+  
+
+
+}
+.name2 {
+  padding-left: 20px;
+  margin-left: -10px;
+  width: 25%;
+  margin-top: -4%;
+}
+.black {
+    color:black;
+    margin-left : 7%;
+}
+.date1 {
+  margin-left: 9px;
+  width: 173%;
+ margin-top: -7%;
+ 
+  
+}
+.date2 {
+  margin-left: 9px;
+  width: 56%;
+  margin-top: -4%;
+}
+
+.name3 {
+  padding-left: 200px;
+  margin-left: -20px;
+  width: 67%;
+  margin-top: 2%;
+ 
+ 
+  
+}
+.form-control {
+  border: 0;
+  outline: 0;
+  border-bottom: 0.5px solid silver;
+}
+.save {
+  margin-left: 31%;
+  margin-top: 2%;
+  background-color: blue;
+  width: 7%;
+  color: white;
+}
+
+.cancel {
+  margin-left: 12%;
+  margin-top: 2%;
+  width: 7%;
+  color: white;
+  background-color: red;
+}
+
+@media (max-width: 767px){
+  .mat-form-field {
+    margin-left: 7px;
+    padding-left: 7px;
+    width: 40%;
+    padding-top: 5%;
+  }
+
+  .date2{
+      width: 80%;
+  }
+  .name3 {
+    padding-left: 2px;
+    margin-left: 2px;
+    width: 67%;
+    margin-top: 2%;
+  }
+  .cancel{
+      margin-left:3%;
+  }
+  .save{
+      margin-left: 50%;
+  }
+  .date1{
+      margin-left:2%;
+      width: 195%;
+  }
+}
+

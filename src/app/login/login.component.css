@@ -1,0 +1,196 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 66em;
+    position: absolute;
+  
+    opacity: 50%;
+    z-index: -1;
+
+ 
+ 
+}
+h1 {
+    padding-left:10%;
+    padding-top : 30%;
+    font-size: 32px;
+    cursor:pointer;
+   
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    top :35%;
+    padding-right:20%;
+  font-size: 20px;
+  padding-left: 10%;
+  
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.col {
+    position : absolute;
+  background: #303030;
+  border-radius: 25px 0px 0px 25px;
+  left: 15%;
+  top: 10%;
+  box-sizing: border-box;
+  height: 40em;
+  width: 39em;
+  justify-content:space-between;
+ 
+}
+p{
+   
+    padding-top: 40px;
+}
+.col1 {
+    position : absolute;
+  display : inline-grid;
+  box-sizing: border-box;
+  background: white;
+  left:50%;
+  top: 10%;
+  border-radius: 0px 25px 25px 0px;
+  width : 39em;
+  height : 40em;
+}
+.mat-raised-button{
+    top : 7%;
+    left :11%;
+    background-color: transparent;
+    color:white;
+    border : 1px solid white;
+    border-color:white;
+    border-radius : 25px 25px;
+    width:25%;
+    height:9%;
+    postion : absolute;
+}
+
+.content {
+  display: inline-flex;
+}
+.form {
+    position : absolute;
+    top  : 20%;
+    left: 20%;
+    height : 50%;
+    width : 60%;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    color:silver;
+    padding-left: 25%;
+    left: 50%;
+    cursor:pointer;
+    font-size: 29px;
+}
+.mat-form-field{
+    width : 80%;
+}
+.login{
+    background-color:#303030;
+    color:white;
+    width: 250px;
+    left:0;
+    top:0;
+    height:45px;
+    border-radius: 20px 20px;
+}
+
+
+.cir1 {
+  top: 57%;
+  left: 46%;
+  position: absolute;
+  background-color: transparent;
+  border : 25px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  z-index :86;
+ 
+}
+.cir {
+ 
+
+ 
+}
+
+h1:after {
+  content: "";
+  background-color: white;
+  position: absolute;
+  width: 10%;
+  height: 0.21rem;
+  bottom: 359px;
+  left: 60px;
+  transform-origin: 0% 100%;   
+  transition: transform 0.7s ease;
+  transform: scale(0,1);
+}
+h1:hover::after{
+    transform :scale(1,1);
+    width:20%;
+
+}
+h2:after {
+  content: "";
+  background-color: #303030;
+  position: absolute;
+  width: 2%;
+  height: 0.21rem;
+  bottom: 359px;
+  left: 86px;
+  top: 28px;
+  transform-origin: 100% 50%;
+  transition: transform 0.7s ease;
+  transform: scale(0,1);
+}
+h2:hover:after {
+  transform: scale(1,1);
+  width: 15%;
+}
+
+@media (max-width: 767px){
+
+   .col {
+       top:0;
+       margin-left:0;
+       left:0;
+       
+       width:  100%;
+       position:absolute;
+       border:hidden;
+   }
+   .col1 {
+       top: 87%;
+       left:0;
+       padding-top: 70%;
+       border:hidden;
+      
+   }
+   img{
+       width:100%;
+   }
+   p{
+       padding-right: 20px;
+   }
+   .form {
+       left : 9%;
+
+   }
+   .cir1{
+       top: 75%;
+       padding-top: 5%;
+   }
+  
+}

@@ -1,0 +1,13 @@
+table {
+  margin-top: -20%;
+  width: 100%;
+  height: 100%;
+  margin-left:9%;
+  margin-right:9%; 
+}
+
+@media (max-width:757px) {
+  table {
+   margin-left: 0;
+  }
+}

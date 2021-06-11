@@ -1,0 +1,53 @@
+<app-reports></app-reports>
+<form>
+  <div class="form-row">
+    <mat-form-field class="mat-form-field" appearance="legacy">
+      <mat-label>Select </mat-label>
+      <mat-label class="black">Customer</mat-label>
+
+
+      <mat-select>
+        <mat-option>None</mat-option>
+        <mat-option value="option1">Option 1</mat-option>
+        <mat-option value="option2">Option 2</mat-option>
+        <mat-option value="option3">Option 3</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="name2" appearance="legacy">
+      <mat-label>Select  </mat-label>
+      <mat-label class="black">Rate  </mat-label>
+      <mat-select>
+        <mat-option>None</mat-option>
+        <mat-option value="option1">Option 1</mat-option>
+        <mat-option value="option2">Option 2</mat-option>
+        <mat-option value="option3">Option 3</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div class="date1">
+      <mat-form-field appearance="legacy">
+
+        <mat-label>Start Date</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    </div>
+    <mat-form-field class="date2" appearance="legacy">
+      <mat-label>End Date</mat-label>
+      <input matInput [matDatepicker]="picker1">
+      <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+      <mat-datepicker #picker1></mat-datepicker>
+    </mat-form-field>
+    <div class="form-group col-md-6">
+      <div class="name3">
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Amount">
+
+      </div>
+    </div>
+
+    <button class="cancel" mat-raised-button>Cancel</button>
+    <button class="save" mat-raised-button>Save</button>
+  </div>
+</form>
+
